@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text to speech | Speech to Text</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>DIT-F Text to Speech | Speech to Text Translator</h1>
+      <div class="section">
+        <h2>Speech to text</h2>
+        <button id="start-recognition">Start voice recognition</button>
+        <p id="transcription">Your transcription will be show here...</p>
+      </div>
+      <div class="section">
+        <h2>Text to Speech</h2>
+        <textarea
+          id="text-to-speak"
+          rows="4"
+          placeholder="Type your text here..."
+        ></textarea>
+        <button id="speak-text">Speak Text</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
